@@ -39,3 +39,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 # SQLite
 *.sqlite
 *.db
+
+# Try scripts
+try.ts
+
+# Test workspace
+.unica

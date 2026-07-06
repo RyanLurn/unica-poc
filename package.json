@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx --env-file=.env ./src/index.ts",
+    "try": "tsx --env-file=.env ./src/try.ts",
     "fmt": "oxfmt --disable-nested-config",
     "fmt:check": "oxfmt --check --disable-nested-config",
     "lint": "oxlint --disable-nested-config",
@@ -17,7 +18,8 @@
     "ai": "7.0.15",
     "drizzle-orm": "1.0.0-rc.4",
     "serialize-error": "13.0.1",
-    "zod": "4.4.3"
+    "zod": "4.4.3",
+    "zx": "8.8.5-lite"
   },
   "devDependencies": {
     "@types/node": "26.1.0",

@@ -228,6 +228,9 @@ importers:
       zod:
         specifier: 4.4.3
         version: 4.4.3
+      zx:
+        specifier: 8.8.5-lite
+        version: 8.8.5-lite
     devDependencies:
       '@types/node':
         specifier: 26.1.0
@@ -1232,6 +1235,10 @@ packages:
   zod@4.4.3:
     resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
+  zx@8.8.5-lite:
+    resolution: {integrity: sha512-A/u82oc3sd9SZ46hig3NZKh5V1u0tXOwev5AK+3yH0zdqhiJmhd7NcWS0lq19RLOofagpDBS8K77aXLNAkBESQ==}
+    engines: {node: '>= 12.17.0'}
+
 snapshots:
 
   '@ai-sdk/gateway@4.0.12(zod@4.4.3)':
@@ -1833,3 +1840,5 @@ snapshots:
   ws@8.21.0: {}
 
   zod@4.4.3: {}
+
+  zx@8.8.5-lite: {}

@@ -1,0 +1,6 @@
+savePrefix: ""
+
+enableGlobalVirtualStore: true
+
+allowBuilds:
+  esbuild: true

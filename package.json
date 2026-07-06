@@ -1,0 +1,38 @@
+{
+  "name": "unica-poc",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env ./src/index.ts",
+    "fmt": "oxfmt --disable-nested-config",
+    "fmt:check": "oxfmt --check --disable-nested-config",
+    "lint": "oxlint --disable-nested-config",
+    "lint:fix": "oxlint --fix --disable-nested-config",
+    "check": "pnpm run lint && pnpm run fmt:check",
+    "fix": "pnpm run lint:fix && pnpm run fmt"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "4.0.5",
+    "@ai-sdk/tui": "1.0.15",
+    "@libsql/client": "0.17.4",
+    "ai": "7.0.15",
+    "drizzle-orm": "1.0.0-rc.4",
+    "serialize-error": "13.0.1",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.0",
+    "drizzle-kit": "1.0.0-rc.4",
+    "oxfmt": "0.57.0",
+    "oxlint": "1.72.0",
+    "oxlint-tsgolint": "0.24.0",
+    "tsx": "4.23.0",
+    "typescript": "6.0.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.10.0",
+      "onFail": "error"
+    }
+  }
+}
